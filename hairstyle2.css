@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(248, 239, 239, 0.815),rgba(0,0,0,0.9)),url(https://e0.pxfuel.com/wallpapers/793/233/desktop-wallpaper-barber-shop-barber-chair.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+nav ul{
+    width: 100%;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 60px 20px;
+}
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.main-content{
+    padding: 270px 0;
+    text-align: center;
+}
+.main-content h1{
+    font-size: 120px;
+    color: #fff;
+    font-family: sans-serif;
+}
+small{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'kaushan';
+}
+.wrapper{
+    font-family: 'raleway';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper h1{
+    font-size: 4rem;
+    margin: 25px 0;
+    text-align: center;
+    color: darkslategray;
+    font-weight: 500;
+}
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+.cards{
+    min-height: 220px;
+    width: 320px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #000;
+    flex-direction: column;
+    background: #fff;
+    margin: 40px 4px;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.9);
+}
+.cards img{
+    width: 320px;
+    height: 180px;
+}
+.cards h2,
+.cards p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.cards a{
+    text-align: center;
+    background: yellow;
+    font-size: 15px;
+    padding: 9px 0;
+    text-decoration: none;
+    border-radius: 5px 5px 0;
+    height: 40px;
+    transition: all 0.5s;
+}
+.cards a:hover{
+    background: #000000;
+    color: #ffff;
+}
+.cards:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.overmaker{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),#090990be),url(https://i.ytimg.com/vi/dxT74swELU0/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.overmaker img{
+  width: 1200px;
+  height: 550px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.overmaker h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+.john{
+    max-width: 1100px;
+    margin: auto;
+}
+.footer-col ul{
+    list-style: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer{
+    background: #000000;
+    width: 1363px;
+    height: 90vh;
+    margin-left: -14px;
+    padding: 150px 0px;
+    overflow: hidden;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+     font-size: 16px;
+     text-transform: capitalize;
+     color: #ffffff;
+     text-decoration: none;
+     font-weight: 300;
+     color: #fff;
+     display: block;
+     transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+ .footer-col .social-links a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.footer-style{
+    width: 0px;
+    height: 80px;
+    margin-left: -20px;
+}
+.social-links img{
+    width: 140px;
+    height: 120px;
+}
+@media screen and (max-width: 720px){
+    .container{
+        width: 380px;
+    }
+    small{
+        font-size: 40px;
+    }
+    .main-content h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    small{
+        font-size: 20px;
+        margin-top: -30px;
+    }
+    .wrapper h1{
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: -320px;
+    }
+    .content-box{
+        flex-direction: column;
+        margin-left: 680px;
+    }
+    .overmaker{
+        width: 365px;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .overmaker img{
+        width: 280px;
+    }
+    .footer{
+        width: 380px;
+        height: 100vh;
+    }
+    .footer-style{
+        visibility: hidden;
+    }
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    
+    
+}
